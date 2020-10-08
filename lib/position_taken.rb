@@ -11,4 +11,12 @@ def position_taken?(board,index)
   end
 end
   
+
+def position_taken?(board,index)
+  if board[index_number] == " " || board[index_number] == "" || board[index_number] == nil
+    "false"
+  else board[index_number] == "X" || board[index_number] == "O"
+    "true"
+  end
+end
   
